@@ -76,6 +76,7 @@ Ported from the official Python examples:
 | [application](examples/application) | `go run ./examples/application` |
 | [connection](examples/connection) | `go run ./examples/connection` |
 | [device_control](examples/device_control) | `go run ./examples/device_control` |
+| [device_control_simulated_stroker](examples/device_control_simulated_stroker) | `go run ./examples/device_control_simulated_stroker` |
 | [device_enumeration](examples/device_enumeration) | `go run ./examples/device_enumeration` |
 | [device_info](examples/device_info) | `go run ./examples/device_info` |
 | [errors](examples/errors) | `go run ./examples/errors` |
