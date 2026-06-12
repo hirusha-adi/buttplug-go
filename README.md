@@ -67,6 +67,22 @@ func main() {
 | `buttplug._messages` | `internal/messages/` |
 | `buttplug._utils` | `internal/utils/` |
 
+## Examples
+
+Ported from the official Python examples:
+
+| Example | Run |
+|---|---|
+| [application](examples/application) | `go run ./examples/application` |
+| [connection](examples/connection) | `go run ./examples/connection` |
+| [device_control](examples/device_control) | `go run ./examples/device_control` |
+| [device_enumeration](examples/device_enumeration) | `go run ./examples/device_enumeration` |
+| [device_info](examples/device_info) | `go run ./examples/device_info` |
+| [errors](examples/errors) | `go run ./examples/errors` |
+| [sensors](examples/sensors) | `go run ./examples/sensors` |
+
+All examples expect Intiface Central running at `ws://127.0.0.1:12345`.
+
 ## API notes
 
 - Python `async`/`await` maps to Go `context.Context` on all I/O methods.
