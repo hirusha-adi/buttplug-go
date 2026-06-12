@@ -1,6 +1,8 @@
 # buttplug-go
 
-The (unofficial) Go implementation of the [Buttplug](https://buttplug.io) protocol v4 client — a 1:1 port of the official Python `buttplug-py` library.
+The (unofficial) Go implementation of the [Buttplug](https://buttplug.io) protocol v4 client - a 1:1 port of the official Python `buttplug-py` library.
+
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/81bcd9cf-19d6-4a4b-9f56-1336d27e30ba" />
 
 ## Install
 
