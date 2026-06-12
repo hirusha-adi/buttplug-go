@@ -1,5 +1,7 @@
 // Package buttplug is a Go client library for the Buttplug protocol v4.
 //
+// Repository: https://github.com/hirusha-adi/buttplug-go
+//
 // Basic usage:
 //
 //	client := buttplug.NewClient("My App")
