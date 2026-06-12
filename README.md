@@ -161,7 +161,44 @@ Ported from the official Python examples in [`buttplug-py`](https://github.com/b
 | [errors](https://github.com/hirusha-adi/buttplug-go/tree/main/examples/errors) | `go run ./examples/errors` |
 | [sensors](https://github.com/hirusha-adi/buttplug-go/tree/main/examples/sensors) | `go run ./examples/sensors` |
 
+To run examples from a clone of this repo (from the repository root):
+
+```bash
+go run ./examples/application
+go run ./examples/device_control
+```
+
 All examples expect [Intiface Central](https://intiface.com/central/) running at `ws://127.0.0.1:12345`.
+
+## Tests
+
+Unit tests live alongside the library source as `*_test.go` files in the repository root. They exercise the public API and protocol message handling without requiring a live Buttplug server.
+
+| Test file | Coverage |
+|---|---|
+| [`client_test.go`](client_test.go) | Client creation, event callbacks, and disconnected-state guards |
+| [`device_test.go`](device_test.go) | Device and feature capability helpers |
+| [`message_sorter_test.go`](message_sorter_test.go) | Request/response message correlation |
+| [`messages_test.go`](messages_test.go) | Protocol message serialization and parsing |
+
+Run the full test suite from the repository root:
+
+```bash
+go test ./...
+```
+
+Other useful commands:
+
+```bash
+# Verbose output
+go test -v ./...
+
+# Run tests matching a name pattern
+go test -run TestClient ./...
+
+# Run with race detection
+go test -race ./...
+```
 
 ## Package layout
 
