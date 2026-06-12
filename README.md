@@ -2,8 +2,6 @@
 
 The (unofficial) Go implementation of the [Buttplug](https://buttplug.io) protocol v4 client — a 1:1 port of the official Python [`buttplug-py`](https://github.com/buttplugio/buttplug-py) library. This was translated with the assitance of generative AI tools, but has been thoroughly tested with [Intiface Central](https://intiface.com/#intiface-central)'s simulations.
 
-**Repository:** [github.com/hirusha-adi/buttplug-go](https://github.com/hirusha-adi/buttplug-go)
-
 <img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/81bcd9cf-19d6-4a4b-9f56-1336d27e30ba" />
 
 ## Install
